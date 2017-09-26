@@ -30,6 +30,10 @@ namespace documentosMVC
             bundles.Add(new ScriptBundle("~/bundles/script").Include(
                         "~/Scripts/includes/Layout.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/treeview").Include(
+                       "~/Content/bootstrap-treeview.min.css",
+                       "~/Scripts/bootstrap-treeview.min.js"));
+
         }
     }
 }

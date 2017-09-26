@@ -1,6 +1,6 @@
 ﻿body {
     padding-top: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -29,6 +29,7 @@ textarea {
 .navbar {
    margin-bottom: 0;
    border-radius: 0;
+   background-color: #fff;
  }
 
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
@@ -92,3 +93,4 @@ textarea {
 .navbar-search input {
 margin-bottom: 0px;
 }
+

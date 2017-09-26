@@ -15,7 +15,40 @@
 
     })
 
+    /*     Treeview     */
+
+    var myTree = [
+    {
+        text: "Item 1",
+        nodes: [
+          {
+              text: "Item 1-1",
+              nodes: [
+                {
+                    text: "Item 1-1-1"
+                },
+                {
+                    text: "Item 1-1-2"
+                }
+              ]
+          },
+          {
+              text: "Item 1-2"
+          }
+        ]
+    },
+    {
+        text: "Item 2"
+    },
+    {
+        text: "Item 3"
+    }
+    
+];
 
 
+    $('#default-tree').treeview({
+        data: myTree
+    });
 
 })
