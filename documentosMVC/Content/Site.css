@@ -94,3 +94,78 @@ textarea {
 margin-bottom: 0px;
 }
 
+
+
+.navbar-custom {
+        background-color:#fff;
+        color:#ffffff;
+        border-radius:0;
+       
+    }
+
+    .navbar-custom .navbar-nav > li > a {
+        color:#000;
+        padding-left:20px;
+        padding-right:20px;
+        
+    }
+    .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+        color: #ffffff;
+        background-color:#fff;
+       /* background-color:#2196F3; */
+    }
+
+    .navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+        text-decoration: none;
+        background-color: #03A9F4;/*Fondo desplazable*/ 
+    }
+
+    .navbar-custom .navbar-brand {
+        color:#eeeeee;
+    }
+    .navbar-custom .navbar-toggle {
+        background-color:#eeeeee
+    }
+
+    .navbar-custom .navbar-inverse {
+     color: #ffffff;
+        background-color:#fff;
+
+    }
+     
+
+
+    .navbar-custom .icon-bar {
+        background-color:#33aa33;
+    }
+
+    a {
+    background-color: white;
+}
+
+    @media (min-width: 768px) {
+  .navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+}
+
+
+a:visited,active {
+    color: black!important;
+}
+
+a:hover {
+    color: white!important;
+}
+
+a:focus {
+    color: white!important;
+    background-color:#fff;
+
+}
+
+#buscador{
+    width:350px;
+}
+
